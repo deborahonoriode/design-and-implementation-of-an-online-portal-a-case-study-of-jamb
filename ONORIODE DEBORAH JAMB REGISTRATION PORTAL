@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>JAMB REGISTRATION FORM</title>
+     <link rel="stylesheet" href="JAMB_REGISTRATION_FORM.css">
+     <style type="text/css">
+         body{
+             background-image: url("move.jpeg");
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;
+             min-height:100vh;
+             margin:0;
+             }
+        .header h1 {
+                   background-color: green;
+                      color: white;
+                             text-align: center;
+                                     margin: 0;
+                                     padding: 10px
+                                     font-size: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+      <div class="header">
+           <h1><b>JOINT*ADMISSION*AND*MATRICULATION*BOARD</b></h1>
+</div>
+</div>
+
+<form onsubmit="event.preventDefault(); alert('Form Submitted Successfully!');">
+<fieldset class="ONORIODE">
+       <label><b>SURNAME:</b></label>
+            <input type="text"name="SURNAME"value="">
+<br/>
+<br/>
+<label><b>FIRST NAME:</b></label>
+<input type="text" name="first name"value>
+<br/>
+<br/>
+
+<label><b>MIDDLE NAME:</b></label>
+<input type="text" name="middle name"value>
+<br/>
+<br/>
+
+<label><b>LAST NAME:</b></label>
+<input type="text" name="last name"value>
+<br/>
+<br/>
+
+<label><b>GENDER:</B></label>
+<input type="radio" name="gender"VALUE="MALE">MALE
+<input type="radio" name="gender"VALUE="FEMALE">FEMALE
+<br/>
+<br/>
+
+<label class="DEBORAH"><B>DATE OF BIRTH:</B></LABEL>
+<input type="date"name="DOB"value>
+<br/>
+<br/>
+
+<label><B>MARITAL STATUS:</B></label>
+<input type="text"name="marital status"value>
+<br/>
+<br/>
+<label><B><STATE/TOWM:</B></label>
+<input type="text"name="state/town"value>
+<br/>
+<br/>
+<label><B><PHONE NUMBER:</B></label>
+<input type="text"name="phone number"value>
+<br/>
+<br/>
+<label><B<EMAIL:</B></label>
+<input type="text"name="email"value>
+<br/>
+<br/>
+<label><B<STATE OF ORIGIN:</B></label>
+<SELECT class="OGHENEROUNA"name="STATE">
+<Option value="Delta State">Delta State</option>
+<Option value="Imo State">Imo State</option>
+<option value="Abia State">Abia State</option>
+<option value="FCT ABUJA">fct abuja</option>
+<option value="Cross river">cross rive</option>
+<option value="Edo state"><edo state</option>
+<option value="Ondo State"><Ondo state</option>
+<option value="Kogi State"><kogi state</option>
+<option value="Lagos State"><lagos state</option>
+<option value="Kano state"><kano state</option>
+<br/>
+</select>
+<label><B>L.G.A:</B></label>
+<select class="Ughelli North"name"L.G.A>
+  <Option value="ughelli">ughelli north</option>
+  <option value="ughelli">ughelli south</option>
+  <option value="Ethiope">Ethiope east</option>
+  <option value="Ethiope">Ethiope south</option>
+<br/>
+
+</SELECT>
+<br/>
+<br/>
+<label><B>NATIONALITY:</B></label>
+<select class="NIGERIA" name="country">
+   <option value="NIGERIA">NIGERIA</option>
+   <option valus="OTHERS">OTHERS</option>
+   <br/>
+   </select>
+   <br/>
+   <br/>
+<label><B>FIRST CHOICE'S:</B></label>
+<select class="sucess"name="Federal university">
+    <option value="DELTA STATE POLYTECHNIC OGWASHI UKU">Delta state polytechnic ogwashi-uku</option>
+    <option value="nekedel polytechnic">nekedel polytechnic</option>
+    <option value="Oghara polytechnic">oghara polytechnic</option>
+    <option value="university of lagos">university of lagos</option>
+</SELECT>
+<br/>
+<br/>
+<label><B>SECOND CHOICE'S:</B></LABEL>
+<select class="emmanuel"name="state">
+    <option value="Abraka university">Abraka university</option>
+    <option value="collage of education warri">collage of education warri</option>
+    <OPTION value="university of ilorin">university of ilorin</option>
+    <option value="university of port harcourt">university of port harcourt</option>
+ </SELECT>
+ <br/>
+ <br/>
+ <label><B><THIRD CHOICE'S:</B></LABEL>
+ <select class="deborah"name="collage">
+     <option value="collage of education asaba">collage of education asaba</option>
+     <option value="federal university of lokoja,kogi state">federal university of kogi state</option>
+     </select>
+     </fieldset>
+     <br/>
+          <thread>
+             <title><B>subjects:</b></title>
+             </thread>
+             <tbody>
+               <label><B>Subject</B></label>
+               <SELECT class="subject" name="subject">
+        <option value="use of English">use of English</option>
+        <option value="physics">physics</option>
+        <option value="chemistry">chemistry</option>
+        <option value="Biology">Biology</option>
+        <option value="mathematics">mathematics</option>
+        <option value="Government">Government</option>
+        <option value="marketing">marketing</option>
+        </SELECT>
+        </tbody>
+    </table>
+
+  <div style="margin-top: 15px;">
+         <button type="submit"><b>SUBMIT</b></button>
+         <button type="button" onclick="alert('Progress Saved!')"><b>SAVE</B></button>
+         </div>
+         </FORM>
+    
